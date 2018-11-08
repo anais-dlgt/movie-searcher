@@ -1,0 +1,20 @@
+
+<div class="table-container">
+  <h2>Votre recherche : <%= params[:movie] %></h2>
+  <table class="table-dark">
+    <tbody>
+      <% if @movies.empty? %>
+      <h2>Désolé votre recherche n'a rien donné</h2>
+      <% else %>
+      <% @movies.each do |movie| %>
+      <tr>
+        <td><img alt="<%= movie[:title]%>" src="https://image.tmdb.org/t/p/w185<%= movie[:poster_path]%>" /></td>
+        <td><%= movie[:title]%></td>
+        <td>Réalisé par <%=movie[:real]%></td>
+        <td>Sortie le <%= movie[:release_date] %></td>
+      </tr>
+      <% end %>
+      <% end %>
+    </tbody>
+  </table>
+</div>
