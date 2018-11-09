@@ -5,8 +5,7 @@ class MoviesController < ApplicationController
   end
 
   def search
-    @search = Tmdb::Search.new
-    @movies = SearchMovie.new(movie: params["movie"]).perform
+    @results = SearchMovie.new(params[:movie]).perform
   end
 
 
