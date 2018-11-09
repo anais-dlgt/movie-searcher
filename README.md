@@ -2,9 +2,9 @@
 
 Voici une super app qui permet quand tu tapes un mot-clé de récupérer en rapport avec ce dernier :
 
-Le nom du film
-La date de sortie
-Le réalisateur
+Le nom du film <br/>
+La date de sortie <br/>
+Le réalisateur <br/>
 L'affiche du film
 
 
