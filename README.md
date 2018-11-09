@@ -1,4 +1,4 @@
-# :clap_de_tournage:  Movie Searcher :clap_de_tournage:
+# 🎬  Movie Searcher 🎬
 
 Voici une super app qui permet quand tu tapes un mot-clé de récupérer en rapport avec ce dernier :
 
@@ -8,13 +8,13 @@ Le réalisateur
 L'affiche du film
 
 
-## :poussin_dans_sa_coquille: Pour commencer en local :poussin_dans_sa_coquille:
+## 🐣 Pour commencer 🐣
 
 En premier clone ce repo puis cd dans le repo.
 
-### :clé_anglaise: Pré-requis :clé_anglaise:
+### 🔧 Pré-requis 🔧
 
-Il sera nécessaire d'installer certains gems. So run :
+Il sera nécessaire d'installer certaines gems. So run :
 
 ```
 bundle install
@@ -25,12 +25,8 @@ Puis :
 ```
 rails db:create
 ```
+Il ne te reste plus qu'à chercher des films 🤗
 
-## :océan: Sur Heroku :océan:
-
-Voici le lien en production de l'application :
-
-
-## Travail réalisé par la team de Lille :bière: :feu:
+## Travail réalisé par la team de Lille 🍻
 
 Anais Diologeant, Thomas Perus , Mustapha Ait Ouayhou , Virginie Valeur Hannebicque
